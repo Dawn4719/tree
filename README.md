@@ -14,7 +14,8 @@ After running the codes, there will be an executable files called `bit_test`, wh
 |Syntax|Description|
 |---|---|
 |-d|Dataset|
-|-m|Method|
+|-m|Method(BaseLine 0, ITT 1, DeltaGraph 2, VILA 3)|
 |-f|Durability Or Existence|
 |-k|$\alpha$|
 |-e|$\lambda$|
+ 
