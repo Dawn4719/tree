@@ -6,7 +6,7 @@ cd build
 cmake ..
 make
 ```
-After running the codes, there will be an executable files called `bit_test`, which means you have already compiled our codes.
+After running the codes, there will be an executable files called `bit_test`, which means you have already compiled our codes. The main code of BaseLine, IIT, DeltaGraph and VILA are in `main.cpp`.
 ## Run the procedure
 ```
 ./bit_test -d su4M -m 1 -f 1 -k 2 -e 64
