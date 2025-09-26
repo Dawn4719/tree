@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="IIT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\graph\;CMake Files\query\;CMake Files\utility\;CMake Files\roaring\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graph">
+				<Option output="/home/qsl/exp/IIT/cmake-build-debug/graph/libgraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug/graph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qsl/exp/IIT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/graph/Makefile&quot;  VERBOSE=1 graph"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graph/fast">
+				<Option output="/home/qsl/exp/IIT/cmake-build-debug/graph/libgraph.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug/graph"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qsl/exp/IIT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/graph/Makefile&quot;  VERBOSE=1 graph/fast"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bit_test">
+				<Option output="/home/qsl/exp/IIT/cmake-build-debug/query/bit_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug/query"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qsl/exp/IIT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 bit_test"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bit_test/fast">
+				<Option output="/home/qsl/exp/IIT/cmake-build-debug/query/bit_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug/query"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qsl/exp/IIT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 bit_test/fast"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/qsl/exp/IIT/cmake-build-debug/query/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug/query"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qsl/exp/IIT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/qsl/exp/IIT/cmake-build-debug/query/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug/query"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qsl/exp/IIT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/query/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utility">
+				<Option output="/home/qsl/exp/IIT/cmake-build-debug/utility/libutility.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug/utility"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qsl/exp/IIT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/utility/Makefile&quot;  VERBOSE=1 utility"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/utility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/utility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/utility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utility/fast">
+				<Option output="/home/qsl/exp/IIT/cmake-build-debug/utility/libutility.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug/utility"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qsl/exp/IIT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/utility/Makefile&quot;  VERBOSE=1 utility/fast"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/utility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/utility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/utility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roaring">
+				<Option output="/home/qsl/exp/IIT/cmake-build-debug/roaring/libroaring.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug/roaring"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qsl/exp/IIT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/roaring/Makefile&quot;  VERBOSE=1 roaring"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/roaring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/roaring/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/roaring/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roaring/fast">
+				<Option output="/home/qsl/exp/IIT/cmake-build-debug/roaring/libroaring.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qsl/exp/IIT/cmake-build-debug/roaring"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qsl/exp/IIT"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/roaring/Makefile&quot;  VERBOSE=1 roaring/fast"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/roaring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/roaring/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qsl/exp/IIT/cmake-build-debug/roaring/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/qsl/exp/IIT/graph/graph.cpp">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/graph/graph.h">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/CECI.hpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/EvaluateQuery.cpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/EvaluateQuery.h">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/FilterVertices.cpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/FilterVertices.h">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/GenerateFilteringPlan.cpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/GenerateFilteringPlan.h">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/GenerateQueryPlan.cpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/GenerateQueryPlan.h">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/IIT.hpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/IITR.hpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/LLAMA.hpp">
+			<Option target="bit_test"/>
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/ViLa.cpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/ViLa.h">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/deltagraph.cpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/deltagraph.h">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/graphDelta.cpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/graphDelta.h">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/main.cpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/matchingcommand.cpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/matchingcommand.h">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/reach.hpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/staticcore.hpp">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/ticktock.h">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/type.h">
+			<Option target="bit_test"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/roaring/roaring.c">
+			<Option target="roaring"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/roaring/roaring.h">
+			<Option target="roaring"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/roaring/roaring.hh">
+			<Option target="roaring"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/CLI11.hpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/QFliter.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/bitsetoperation.cpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/bitsetoperation.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/commandparser.cpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/commandparser.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/computesetintersection.cpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/computesetintersection.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/globals.cpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/globals.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/graphoperations.cpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/graphoperations.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/han/intersection_algos.cpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/han/intersection_algos.hpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/han/utils/util.cpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/han/utils/util.hpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/types.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/utils.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\graph\"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/query/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\query\"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/utility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utility\"/>
+		</Unit>
+		<Unit filename="/home/qsl/exp/IIT/roaring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\roaring\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

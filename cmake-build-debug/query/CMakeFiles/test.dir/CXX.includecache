@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qsl/exp/IIT/query/LLAMA.hpp
+cstdint
+-
+vector
+-
+stdexcept
+-
+cstring
+-
+cassert
+-
+map
+-
+unordered_map
+-
+boost/dynamic_bitset/dynamic_bitset.hpp
+-
+
+/home/qsl/exp/IIT/query/test.cpp
+iostream
+-
+fstream
+-
+vector
+-
+algorithm
+-
+LLAMA.hpp
+/home/qsl/exp/IIT/query/LLAMA.hpp
+chrono
+-
+
