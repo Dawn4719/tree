@@ -111,34 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-query/CMakeFiles/bit_test.dir/rule:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 query/CMakeFiles/bit_test.dir/rule
-.PHONY : query/CMakeFiles/bit_test.dir/rule
+query/CMakeFiles/IDE.dir/rule:
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 query/CMakeFiles/IDE.dir/rule
+.PHONY : query/CMakeFiles/IDE.dir/rule
 
 # Convenience name for target.
-bit_test: query/CMakeFiles/bit_test.dir/rule
+IDE: query/CMakeFiles/IDE.dir/rule
 
-.PHONY : bit_test
+.PHONY : IDE
 
 # fast build rule for target.
-bit_test/fast:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/build
-.PHONY : bit_test/fast
-
-# Convenience name for target.
-query/CMakeFiles/test.dir/rule:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 query/CMakeFiles/test.dir/rule
-.PHONY : query/CMakeFiles/test.dir/rule
-
-# Convenience name for target.
-test: query/CMakeFiles/test.dir/rule
-
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/test.dir/build.make query/CMakeFiles/test.dir/build
-.PHONY : test/fast
+IDE/fast:
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/build
+.PHONY : IDE/fast
 
 EvaluateQuery.o: EvaluateQuery.cpp.o
 
@@ -146,7 +131,7 @@ EvaluateQuery.o: EvaluateQuery.cpp.o
 
 # target to build an object file
 EvaluateQuery.cpp.o:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/EvaluateQuery.cpp.o
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/EvaluateQuery.cpp.o
 .PHONY : EvaluateQuery.cpp.o
 
 EvaluateQuery.i: EvaluateQuery.cpp.i
@@ -155,7 +140,7 @@ EvaluateQuery.i: EvaluateQuery.cpp.i
 
 # target to preprocess a source file
 EvaluateQuery.cpp.i:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/EvaluateQuery.cpp.i
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/EvaluateQuery.cpp.i
 .PHONY : EvaluateQuery.cpp.i
 
 EvaluateQuery.s: EvaluateQuery.cpp.s
@@ -164,7 +149,7 @@ EvaluateQuery.s: EvaluateQuery.cpp.s
 
 # target to generate assembly for a file
 EvaluateQuery.cpp.s:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/EvaluateQuery.cpp.s
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/EvaluateQuery.cpp.s
 .PHONY : EvaluateQuery.cpp.s
 
 FilterVertices.o: FilterVertices.cpp.o
@@ -173,7 +158,7 @@ FilterVertices.o: FilterVertices.cpp.o
 
 # target to build an object file
 FilterVertices.cpp.o:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/FilterVertices.cpp.o
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/FilterVertices.cpp.o
 .PHONY : FilterVertices.cpp.o
 
 FilterVertices.i: FilterVertices.cpp.i
@@ -182,7 +167,7 @@ FilterVertices.i: FilterVertices.cpp.i
 
 # target to preprocess a source file
 FilterVertices.cpp.i:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/FilterVertices.cpp.i
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/FilterVertices.cpp.i
 .PHONY : FilterVertices.cpp.i
 
 FilterVertices.s: FilterVertices.cpp.s
@@ -191,7 +176,7 @@ FilterVertices.s: FilterVertices.cpp.s
 
 # target to generate assembly for a file
 FilterVertices.cpp.s:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/FilterVertices.cpp.s
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/FilterVertices.cpp.s
 .PHONY : FilterVertices.cpp.s
 
 GenerateFilteringPlan.o: GenerateFilteringPlan.cpp.o
@@ -200,7 +185,7 @@ GenerateFilteringPlan.o: GenerateFilteringPlan.cpp.o
 
 # target to build an object file
 GenerateFilteringPlan.cpp.o:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/GenerateFilteringPlan.cpp.o
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/GenerateFilteringPlan.cpp.o
 .PHONY : GenerateFilteringPlan.cpp.o
 
 GenerateFilteringPlan.i: GenerateFilteringPlan.cpp.i
@@ -209,7 +194,7 @@ GenerateFilteringPlan.i: GenerateFilteringPlan.cpp.i
 
 # target to preprocess a source file
 GenerateFilteringPlan.cpp.i:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/GenerateFilteringPlan.cpp.i
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/GenerateFilteringPlan.cpp.i
 .PHONY : GenerateFilteringPlan.cpp.i
 
 GenerateFilteringPlan.s: GenerateFilteringPlan.cpp.s
@@ -218,7 +203,7 @@ GenerateFilteringPlan.s: GenerateFilteringPlan.cpp.s
 
 # target to generate assembly for a file
 GenerateFilteringPlan.cpp.s:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/GenerateFilteringPlan.cpp.s
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/GenerateFilteringPlan.cpp.s
 .PHONY : GenerateFilteringPlan.cpp.s
 
 GenerateQueryPlan.o: GenerateQueryPlan.cpp.o
@@ -227,7 +212,7 @@ GenerateQueryPlan.o: GenerateQueryPlan.cpp.o
 
 # target to build an object file
 GenerateQueryPlan.cpp.o:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/GenerateQueryPlan.cpp.o
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/GenerateQueryPlan.cpp.o
 .PHONY : GenerateQueryPlan.cpp.o
 
 GenerateQueryPlan.i: GenerateQueryPlan.cpp.i
@@ -236,7 +221,7 @@ GenerateQueryPlan.i: GenerateQueryPlan.cpp.i
 
 # target to preprocess a source file
 GenerateQueryPlan.cpp.i:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/GenerateQueryPlan.cpp.i
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/GenerateQueryPlan.cpp.i
 .PHONY : GenerateQueryPlan.cpp.i
 
 GenerateQueryPlan.s: GenerateQueryPlan.cpp.s
@@ -245,7 +230,7 @@ GenerateQueryPlan.s: GenerateQueryPlan.cpp.s
 
 # target to generate assembly for a file
 GenerateQueryPlan.cpp.s:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/GenerateQueryPlan.cpp.s
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/GenerateQueryPlan.cpp.s
 .PHONY : GenerateQueryPlan.cpp.s
 
 ViLa.o: ViLa.cpp.o
@@ -254,7 +239,7 @@ ViLa.o: ViLa.cpp.o
 
 # target to build an object file
 ViLa.cpp.o:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/ViLa.cpp.o
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/ViLa.cpp.o
 .PHONY : ViLa.cpp.o
 
 ViLa.i: ViLa.cpp.i
@@ -263,7 +248,7 @@ ViLa.i: ViLa.cpp.i
 
 # target to preprocess a source file
 ViLa.cpp.i:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/ViLa.cpp.i
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/ViLa.cpp.i
 .PHONY : ViLa.cpp.i
 
 ViLa.s: ViLa.cpp.s
@@ -272,7 +257,7 @@ ViLa.s: ViLa.cpp.s
 
 # target to generate assembly for a file
 ViLa.cpp.s:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/ViLa.cpp.s
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/ViLa.cpp.s
 .PHONY : ViLa.cpp.s
 
 deltagraph.o: deltagraph.cpp.o
@@ -281,7 +266,7 @@ deltagraph.o: deltagraph.cpp.o
 
 # target to build an object file
 deltagraph.cpp.o:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/deltagraph.cpp.o
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/deltagraph.cpp.o
 .PHONY : deltagraph.cpp.o
 
 deltagraph.i: deltagraph.cpp.i
@@ -290,7 +275,7 @@ deltagraph.i: deltagraph.cpp.i
 
 # target to preprocess a source file
 deltagraph.cpp.i:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/deltagraph.cpp.i
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/deltagraph.cpp.i
 .PHONY : deltagraph.cpp.i
 
 deltagraph.s: deltagraph.cpp.s
@@ -299,7 +284,7 @@ deltagraph.s: deltagraph.cpp.s
 
 # target to generate assembly for a file
 deltagraph.cpp.s:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/deltagraph.cpp.s
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/deltagraph.cpp.s
 .PHONY : deltagraph.cpp.s
 
 graphDelta.o: graphDelta.cpp.o
@@ -308,7 +293,7 @@ graphDelta.o: graphDelta.cpp.o
 
 # target to build an object file
 graphDelta.cpp.o:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/graphDelta.cpp.o
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/graphDelta.cpp.o
 .PHONY : graphDelta.cpp.o
 
 graphDelta.i: graphDelta.cpp.i
@@ -317,7 +302,7 @@ graphDelta.i: graphDelta.cpp.i
 
 # target to preprocess a source file
 graphDelta.cpp.i:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/graphDelta.cpp.i
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/graphDelta.cpp.i
 .PHONY : graphDelta.cpp.i
 
 graphDelta.s: graphDelta.cpp.s
@@ -326,7 +311,7 @@ graphDelta.s: graphDelta.cpp.s
 
 # target to generate assembly for a file
 graphDelta.cpp.s:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/graphDelta.cpp.s
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/graphDelta.cpp.s
 .PHONY : graphDelta.cpp.s
 
 main.o: main.cpp.o
@@ -335,7 +320,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/main.cpp.o
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -344,7 +329,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/main.cpp.i
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -353,7 +338,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/main.cpp.s
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 matchingcommand.o: matchingcommand.cpp.o
@@ -362,7 +347,7 @@ matchingcommand.o: matchingcommand.cpp.o
 
 # target to build an object file
 matchingcommand.cpp.o:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/matchingcommand.cpp.o
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/matchingcommand.cpp.o
 .PHONY : matchingcommand.cpp.o
 
 matchingcommand.i: matchingcommand.cpp.i
@@ -371,7 +356,7 @@ matchingcommand.i: matchingcommand.cpp.i
 
 # target to preprocess a source file
 matchingcommand.cpp.i:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/matchingcommand.cpp.i
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/matchingcommand.cpp.i
 .PHONY : matchingcommand.cpp.i
 
 matchingcommand.s: matchingcommand.cpp.s
@@ -380,35 +365,8 @@ matchingcommand.s: matchingcommand.cpp.s
 
 # target to generate assembly for a file
 matchingcommand.cpp.s:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/matchingcommand.cpp.s
+	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/matchingcommand.cpp.s
 .PHONY : matchingcommand.cpp.s
-
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/test.dir/build.make query/CMakeFiles/test.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/test.dir/build.make query/CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	cd /home/qsl/exp/IIT/cmake-build-debug && $(MAKE) -f query/CMakeFiles/test.dir/build.make query/CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -417,9 +375,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... bit_test"
 	@echo "... edit_cache"
-	@echo "... test"
+	@echo "... IDE"
 	@echo "... EvaluateQuery.o"
 	@echo "... EvaluateQuery.i"
 	@echo "... EvaluateQuery.s"
@@ -447,9 +404,6 @@ help:
 	@echo "... matchingcommand.o"
 	@echo "... matchingcommand.i"
 	@echo "... matchingcommand.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 .PHONY : help
 
 

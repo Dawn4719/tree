@@ -21,7 +21,7 @@
 #include "baseline.hpp"
 #include "IIT.hpp"
 #include "IITR.hpp"
-#include "graphDelta.h"
+#include "Delta.h"
 using namespace rocksdb;
 using namespace std;
 int K = 18;
@@ -235,14 +235,14 @@ int main(int argc, char *argv[]) {
     printf("%s", ctime(&timep));
     std::cout << "Peak Mem: " << mem::getValue() / 1024 << "mb" << std::endl;
     CLI::App app{"App description"};
-    string method = "1";
-    dataset = "mo4M";
+    string method = "IIT";
+    dataset = "mo1M";
     level = 0;
     fun = 1;
     int alpha = 2;
     int beta = 64;
     int UPDATECOUNT;
-    string moreQuery;
+    string moreQuery = "KCORE";
     app.add_option("-d,--dataset", dataset, "query graph path")->required();
     app.add_option("-m,--method", method, "method")->required();
     app.add_option("-f,--fun", fun, "method")->required();
@@ -255,10 +255,12 @@ int main(int argc, char *argv[]) {
     getK();
 
     query_path = "/home/qsl/exp/IIT/dataset/" + dataset + "/q";
-    input_file = "/home/qsl/exp/IIT/dataset/" + dataset + "/inputMoreRange.txt";
+    input_file = "/home/qsl/exp/IIT/dataset/" + dataset + "/input.txt";
 
-    // input_file = "../dataset/" + dataset + "/inputcore.txt";
-    // input_file = "../dataset/" + dataset + "/inputCECI.txt";
+    if (moreQuery == "KCORE")
+        input_file = "/home/qsl/exp/IIT/dataset/" + dataset + "/inputcore.txt";
+    if (moreQuery == "CECI")
+        input_file = "/home/qsl/exp/IIT/dataset/" + dataset + "/inputCECI.txt";
 
     cout << query_path << " " << input_file << " " << method << " K=" << K << endl;
     std::cout << "----------- Loading graphs ------------" << std::endl;

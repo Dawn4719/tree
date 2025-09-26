@@ -20,7 +20,7 @@ using namespace std;
 typedef struct {
 	unsigned s;
 	unsigned t;
-} edge;
+} edgecore;
 
 typedef struct {
 	unsigned node;
@@ -30,7 +30,7 @@ typedef struct {
 typedef struct {
 	unsigned n;//number of nodes
 	unsigned e;//number of edges
-	edge *edges;//list of edges
+	edgecore *edges;//list of edges
 
 	unsigned *ns;//ns[l]: number of nodes in G_l
 	unsigned **d;//d[l]: degrees of G_l
@@ -106,7 +106,7 @@ specialsparse *readedgelist(std::vector<std::pair<int, int>> E) {
 	g->n = 0;
 	g->e = 0;
 	// file = fopen(edgelist, "r");
-	g->edges = (edge*)malloc(e1 * sizeof(edge));
+	g->edges = (edgecore*)malloc(e1 * sizeof(edgecore));
 	char c;
 	map<int, int> ls;
 	int cnt = 0;
@@ -121,13 +121,13 @@ specialsparse *readedgelist(std::vector<std::pair<int, int>> E) {
 		g->e++;
 		if (g->e == e1) {
 			e1 += NLINKS;
-			g->edges = (edge*)realloc(g->edges, e1 * sizeof(edge));
+			g->edges = (edgecore*)realloc(g->edges, e1 * sizeof(edgecore));
 		}
 	}
 
 	g->n++;
 
-	g->edges = (edge*)realloc(g->edges, g->e * sizeof(edge));
+	g->edges = (edgecore*)realloc(g->edges, g->e * sizeof(edgecore));
 
 	return g;
 }
@@ -239,7 +239,7 @@ void freeheap(bheap *heap) {
 }
 
 //computing degeneracy ordering and core value
-int test(std::vector<std::pair<int, int>> E, int k) {
+int KCORE(std::vector<std::pair<int, int>> E, int k) {
 	specialsparse* g;
 	g = readedgelist(E);
 	unsigned i, j, r = 0, N = g->n,maxdegree = 0;

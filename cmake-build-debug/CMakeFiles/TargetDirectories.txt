@@ -4,9 +4,8 @@
 /home/qsl/exp/IIT/cmake-build-debug/graph/CMakeFiles/edit_cache.dir
 /home/qsl/exp/IIT/cmake-build-debug/graph/CMakeFiles/graph.dir
 /home/qsl/exp/IIT/cmake-build-debug/query/CMakeFiles/rebuild_cache.dir
-/home/qsl/exp/IIT/cmake-build-debug/query/CMakeFiles/bit_test.dir
 /home/qsl/exp/IIT/cmake-build-debug/query/CMakeFiles/edit_cache.dir
-/home/qsl/exp/IIT/cmake-build-debug/query/CMakeFiles/test.dir
+/home/qsl/exp/IIT/cmake-build-debug/query/CMakeFiles/IDE.dir
 /home/qsl/exp/IIT/cmake-build-debug/utility/CMakeFiles/rebuild_cache.dir
 /home/qsl/exp/IIT/cmake-build-debug/utility/CMakeFiles/edit_cache.dir
 /home/qsl/exp/IIT/cmake-build-debug/utility/CMakeFiles/utility.dir

@@ -124,30 +124,17 @@ graph/fast:
 .PHONY : graph/fast
 
 #=============================================================================
-# Target rules for targets named bit_test
+# Target rules for targets named IDE
 
 # Build rule for target.
-bit_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bit_test
-.PHONY : bit_test
+IDE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 IDE
+.PHONY : IDE
 
 # fast build rule for target.
-bit_test/fast:
-	$(MAKE) -f query/CMakeFiles/bit_test.dir/build.make query/CMakeFiles/bit_test.dir/build
-.PHONY : bit_test/fast
-
-#=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) -f query/CMakeFiles/test.dir/build.make query/CMakeFiles/test.dir/build
-.PHONY : test/fast
+IDE/fast:
+	$(MAKE) -f query/CMakeFiles/IDE.dir/build.make query/CMakeFiles/IDE.dir/build
+.PHONY : IDE/fast
 
 #=============================================================================
 # Target rules for targets named utility
@@ -184,8 +171,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... graph"
-	@echo "... bit_test"
-	@echo "... test"
+	@echo "... IDE"
 	@echo "... utility"
 	@echo "... roaring"
 .PHONY : help

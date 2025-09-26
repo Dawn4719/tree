@@ -63,8 +63,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "graph/CMakeFiles/graph.dir/DependInfo.cmake"
-  "query/CMakeFiles/bit_test.dir/DependInfo.cmake"
-  "query/CMakeFiles/test.dir/DependInfo.cmake"
+  "query/CMakeFiles/IDE.dir/DependInfo.cmake"
   "utility/CMakeFiles/utility.dir/DependInfo.cmake"
   "roaring/CMakeFiles/roaring.dir/DependInfo.cmake"
   )

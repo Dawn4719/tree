@@ -1,5 +1,6 @@
 #include <boost/dynamic_bitset.hpp>
-
+// #include "staticcore.hpp"
+// #include "CECI.hpp"
 struct TNode {
     TNode() : lson(-1), rson(-1), fa(-1) {
         //        bv.resize(N, false);
@@ -286,7 +287,7 @@ public:
     void query(string moreQuery) {
         fstream input(input_file, ios::in);
         int L, R;
-
+        cout << input_file << endl;
         while (input >> L >> R) {
         {
             cout << "Query: " << L << " " << R << endl;
@@ -606,11 +607,21 @@ public:
                     auto embedding_count = ceciRes[2];
                     assert(embedding_count % 6 == 0);
                     embedding_count /= 6;
-                    cout << L << "," << R << "," << R - L + 1 << ", |V| " << ceciRes[0] << ", |E| " << ceciRes[1] << ", Count " << embedding_count << " , " << Duration(cecit) << endl;;
+                    cout << L << "," << R << ", |V| " << ceciRes[0] << ", |E| " << ceciRes[1] << ", Count " << embedding_count << " , " << Duration(cecit) << endl;;
                 }
             }
             else if (moreQuery == "KCORE") {
+                std::vector<std::pair<int, int>> E;
+                while (one != lres.npos) {
+                    E.emplace_back(id2edge[one]);
+                    all_edges++;
+                    one = lres.find_next(one);
+                }
 
+                int k;
+                input >> k;
+
+                cout << L << "," << R << ", " << k << ", # of KCORE: " << KCORE(E, k) << endl;
             }
 
             std::cout << "  ----------------------------------------------Res: " << all_edges << std::endl;

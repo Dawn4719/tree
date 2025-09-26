@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/RR.dir/mainRoaring.cpp.o  -o RR  -Wl,-rpath,/home/qsl/exp/IIT/build/utility:/home/qsl/exp/IIT/build/graph:/home/qsl/exp/IIT/build/roaring /usr/lib/librocksdb.so ../utility/libutility.so ../graph/libgraph.so ../roaring/libroaring.so -lpthread 

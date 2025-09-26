@@ -6,7 +6,7 @@ include_directories(
 )
 
 set(CMAKE_CXX_STANDARD 17)
-add_compile_options(-g -O3 -march=native -Wall -fopenmp -mavx -pthread -lrocksdb)
+add_compile_options(-g  -march=native -Wall -fopenmp -mavx -pthread -lrocksdb)
 
 add_subdirectory(graph)
 add_subdirectory(query)
